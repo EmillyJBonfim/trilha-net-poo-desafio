@@ -1,3 +1,4 @@
+
 using System.Security.Cryptography.X509Certificates;
 
 namespace DesafioPOO.Models
@@ -14,4 +15,13 @@ namespace DesafioPOO.Models
         }
      
     }
+namespace DesafioPOO.Models
+{
+    // TODO: Herdar da classe "Smartphone"
+    public class Iphone
+    {
+        // TODO: Sobrescrever o método "InstalarAplicativo"
+
+    }
+}
 }

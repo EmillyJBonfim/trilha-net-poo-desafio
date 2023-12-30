@@ -3,6 +3,7 @@ namespace DesafioPOO.Models
     public abstract class Smartphone
     {
         public string Numero { get; set; }
+
         protected string Modelo { get; set; }
         protected string IMEI { get; set; }
         protected int Memoria {get; set; }
@@ -14,8 +15,8 @@ namespace DesafioPOO.Models
             Modelo = modelo;
             IMEI = imei;
             Memoria = memoria;
-            // TODO: Passar os parâmetros do construtor para as propriedades
         }
+       
 
         public void Ligar()
         {
